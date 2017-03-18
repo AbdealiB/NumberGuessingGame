@@ -51,7 +51,7 @@ def gamePlay():
             
         # If user was not able to guess the number in 3 tries
         if (flag != False):
-            print("\nErr.. No moves left. Better Luck Next Time")
+            print("\nErr.. Ran out of tries.")
             print("\nOriginal Number was >>>> {}.".format(rnd_num)) # Original Number
             
     # If user presses any other key
